@@ -1,0 +1,12 @@
+{
+  "keys": [
+    {
+      "kty": "RSA",
+      "n": "ullSWVi9KOMpXoP5SmW17xaw2-EE1LHptGj1Umhg5hvMGAoXH7rlQca3xPVM90Q31Yu7tsKJBgOEaOdTuQacASIZnK95afxbmj7nrMqeN7yXlJi_JTYzl76Y_2wfGeaxdCaNZehPV09bx5IBCumqYPelzwDha8-cIStjqmS92FAaqsENxsTrgZ8g8Vw3MAohritTeXoo_FNeGEzMTxxQT9KK72ZD6C30E1-ksJ80ZmUEINwBvVTyNhgwjKIR2JyTbFdK6fHXqnzmyM13utu4zXwtrKk93VgUwzO1F8_pHdg6f1XHGJf51gxwFScTahwpqQJeue4t9bkz2F3Xno1TIQ",
+      "e": "AQAB",
+      "use": "sig",
+      "alg": "RS256",
+      "kid": "mock-key"
+    }
+  ]
+}

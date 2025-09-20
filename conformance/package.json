@@ -1,0 +1,23 @@
+{
+  "name": "mcpctl",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "mcpctl": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "yaml": "^2.3.4",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "@types/yargs": "^17.0.24",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}

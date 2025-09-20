@@ -1,0 +1,12 @@
+tool: payroll-recon
+inputs:
+  period: "2025-08"
+  accountIds:
+    - "A-1001"
+    - "A-1045"
+expect:
+  keys_present:
+    - summary
+    - discrepancies
+  schema_ok: true
+  latency_ms_max: 1000
